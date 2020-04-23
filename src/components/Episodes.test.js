@@ -10,5 +10,5 @@ test("Episodes renders with selected season", ()=>{
 
 test("Renders Episodes with images", ()=>{
     const mockData = [{}];
-    render(<Episodes )
+    const {rerender} = render(<Episodes episodes={[]} />);
 })
